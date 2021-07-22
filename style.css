@@ -1,0 +1,150 @@
+body {
+background-color: #f0f2f6;
+margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+header{
+	justify-content: space-between;
+	align-items: center ;
+	display: flex;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+   /*this option by default dispose the elements in a row (flex-direction: row)*/
+
+}
+
+li{
+  list-style-type: none;  
+  /*when I specify 2 values to margin, the first one is for the top and bottom side, the second for the left and right side*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+  text-decoration: none;
+   color: black;
+   display: block;
+  /*I added some padding*/
+    padding: 25px 25px;
+    letter-spacing: .17em;
+    text-transform: uppercase;
+	font-size: 2vh ;
+  /*also changed the font family but that's totally irrelevant*/
+font-family: monospace;
+transition: all 0.3s ease 0s;
+}
+
+a:hover{
+  color: red ;
+  font-size: 4vh ;
+}
+
+.typewrite {
+		font-size: 3vh ;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+    align-items: center;
+	height: 85vh;
+}
+
+#girl {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	 height: 50vh;
+}
+
+
+img {
+	height: 45vh;
+  width: auto;
+ 
+}
+
+.typewrite:hover {
+		color: black ;
+	 font-size: 3vh ;
+}
+
+nav{
+	 margin: 0 auto;
+	 text-align: center;
+     width: 100vw;
+	 
+}
+
+#low {
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+} 
+
+#high {
+	 width: 100vw;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+} 
+
+#logo {
+  overflow: hidden;
+      letter-spacing: 0;
+	  cursor: pointer;
+  top: 0;
+  left: 0;
+ font-size: 3vh;
+ font-family: 'Josefin Sans', sans-serif;
+ font-weight: 700;
+
+} 
+
+#logo:hover{
+  color: white;
+}
+
+.fab {  
+  padding: 25px 0px; 
+text-align: center;  
+   
+}  
+
+.fa-twitter {  
+ 
+  color: black;  
+}  
+
+.fa-twitter:hover{
+	color: #55ACEE;
+	
+}
+.fa-instagram {   
+  color: black;  
+}  
+
+.fa-instagram:hover{
+	color: #e1306c;
+	
+}
+
+.fa-discord {    
+  color: black;  
+}  
+
+.fa-discord:hover{
+	color: #5865F2 ;
+	
+}
