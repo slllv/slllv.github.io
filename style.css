@@ -54,11 +54,41 @@ a:hover{
   font-weight: 700;
 }
 
-h1 {
-  display: flex;
-  justify-content: center;
-    align-items: center;
-	height: 85vh;
+div {
+  display: block;
+  justify-content: left;
+    align-items: left;
+	height: auto;
+	width: 100vw;
+}
+
+p {
+	 text-decoration: none;
+   color: black;
+   word-wrap: break-word;
+   font-size:4vh;
+    padding: 0px 5vw 25px;
+font-family: monospace;
+	
+}
+
+#links{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	justify-items: center;
+text-decoration: underline;
+   color: red;
+   padding: 0px;
+   margin: 0px;
+  font-size: 2vh;
+  font-family: monospace;
+transition: all 0.3s ease 0s;
+	
+}
+
+#links:hover{
+  color: cyan;
 }
 
 #girl {
