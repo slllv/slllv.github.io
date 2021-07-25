@@ -27,13 +27,17 @@ li{
 }
 
 a{
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
   text-decoration: none;
-   display: none;
-   pointer-events: none;
    color: black;
    cursor: pointer;
    display: block;
-  /*I added some padding*/
     padding: 25px 25px;
     letter-spacing: .17em;
     text-transform: uppercase;
