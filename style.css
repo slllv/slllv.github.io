@@ -25,8 +25,12 @@ li{
     margin-left: auto;
     margin-right: auto;
 }
-
+input,
+textarea,
+button,
+select,
 a{
+  -webkit-tap-highlight-color: Rgba(0,0,0,0);
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
      -khtml-user-select: none; /* Konqueror HTML */
