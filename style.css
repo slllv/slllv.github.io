@@ -59,7 +59,7 @@ div {
   justify-content: left;
     align-items: left;
 	height: auto;
-	width: 100vw;
+	width: auto;
 }
 
 p {
@@ -73,15 +73,14 @@ font-family: monospace;
 }
 
 #links{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	justify-items: center;
+	display: grid;
+        text-align: center;
 text-decoration: underline;
+text-transform: uppercase;
    color: red;
-   padding: 0px;
+   padding: 5vh 0px;
    margin: 0px;
-  font-size: 2vh;
+  font-size: 3vh;
   font-family: monospace;
 transition: all 0.3s ease 0s;
 	
