@@ -93,7 +93,6 @@ transition: all 0.3s ease 0s;
 }
 
 #girl {
-     cursor: progress;
 	display: flex;
     justify-content: center;
     align-items: center;
@@ -106,6 +105,7 @@ transition: all 0.3s ease 0s;
 img {
 	height: 45vh;
   width: auto;
+ cursor: progress;
  
 }
 
