@@ -116,8 +116,7 @@ transition: all 0.3s ease 0s;
 img {
 	height: 45vh;
   width: auto;
- cursor: grab;
-cursor: -webkit-grabbing;
+ cursor: default;
  
 }
 
