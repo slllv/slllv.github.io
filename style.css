@@ -30,6 +30,7 @@ textarea,
 button,
 select,
 a{
+  -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: Rgba(0,0,0,0);
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
