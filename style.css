@@ -28,6 +28,8 @@ li{
 
 a{
   text-decoration: none;
+   display: none;
+   pointer-events: none;
    color: black;
    cursor: pointer;
    display: block;
