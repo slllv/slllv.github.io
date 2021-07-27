@@ -5,12 +5,12 @@
     "scope" : "./",
     "icons": [
         {
-            "src": "./girl1.png",
+            "src": "./1627414250845.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "./girl1.png",
+            "src": "./1627414250845.png",
             "sizes": "512x512",
             "type": "image/png"
         }
