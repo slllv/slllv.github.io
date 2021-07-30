@@ -90,7 +90,7 @@ font-family: monospace;
         text-align: center;
 text-decoration: underline;
 text-transform: uppercase;
-   color: red;
+   color: black;
    padding: 5vh 0px;
    margin: 0px;
   font-size: 3vh;
@@ -100,7 +100,7 @@ transition: all 0.3s ease 0s;
 }
 
 #links:hover{
-  color: cyan;
+  color: red;
 }
 
 #girl {
