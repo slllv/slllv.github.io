@@ -126,20 +126,20 @@ nav{
      width: 100vw;
 	 
 }
-
-
-
-#low {
-  overflow: hidden;
-  position: fixed;
-  bottom: 0;
-
+div{
 display: flex;
   justify-content: center;
     align-items: center;
 	height: auto;
 	width: auto;
 } 
+
+
+#low {
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+{
 
 #high {
 	 width: 100vw;
