@@ -30,6 +30,12 @@ header{
     color: rgba(0, 0, 0, 0.75);
 }
 
+img {
+    width: 650px;
+    height: 400px;
+    transition: 1s;
+}   
+
 .img {
     width: 650px;
     height: 400px;
