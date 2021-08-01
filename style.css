@@ -141,8 +141,8 @@ display: block;
   bottom: 0;
 
 display: block;
-  justify-content: left;
-    align-items: left;
+  justify-content: center;
+    align-items: center;
 	height: auto;
 	width: auto;
 } 
