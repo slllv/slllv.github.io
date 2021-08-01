@@ -30,6 +30,13 @@ header{
     color: rgba(0, 0, 0, 0.75);
 }
 
+.img {
+    width: 650px;
+    height: 400px;
+    position: absolute;
+    z-index: 0;
+    transition: 1s;
+}
 
 .right {
     position: absolute;
