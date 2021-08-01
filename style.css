@@ -153,13 +153,7 @@ a:hover{
   font-weight: 700;
 }
 
-div {
-  display: block;
-  justify-content: left;
-    align-items: left;
-	height: auto;
-	width: auto;
-}
+
 
 p {
 	 text-decoration: none;
@@ -222,6 +216,12 @@ nav{
   overflow: hidden;
   position: fixed;
   bottom: 0;
+
+display: block;
+  justify-content: left;
+    align-items: left;
+	height: auto;
+	width: auto;
 } 
 
 #high {
