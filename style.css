@@ -127,6 +127,14 @@ nav{
 	 
 }
 
+div{
+display: block;
+  justify-content: left;
+    align-items: left;
+	height: auto;
+	width: auto;
+}
+
 #low {
   overflow: hidden;
   position: fixed;
