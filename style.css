@@ -2,7 +2,6 @@ body {
 background-color: #f0f2f6;
 margin: 0;
 }
-
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
 header{
 	justify-content: space-between;
@@ -12,12 +11,27 @@ header{
 
 
 
-img {
-	height: 45vh;
-  width: auto;
- cursor: default;
-
+.picContainer {
+    position: relative;
+    width: 650px;
+    height: 400px;
+    border: 8px solid #ffffff;
+    background: black;
+    border-radius: 10px;
 }
+
+#info {
+    position: absolute;
+    top: -65px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+
+
+
 
 ul {
   list-style-type: none;
@@ -25,9 +39,7 @@ ul {
   padding: 0;
   display: flex;
    /*this option by default dispose the elements in a row (flex-direction: row)*/
-
 }
-
 li{
   list-style-type: none;  
   /*when I specify 2 values to margin, the first one is for the top and bottom side, the second for the left and right side*/
@@ -60,12 +72,10 @@ a{
 font-family: monospace;
 transition: all 0.3s ease 0s;
 }
-
 a:hover{
   color: red ;
   font-size: 4vh ;
 }
-
 .typewrite {
 		font-size: 3vh ;
   cursor: default;
@@ -75,9 +85,13 @@ a:hover{
   padding: 0;
   font-weight: 700;
 }
-
-
-
+div {
+  display: block;
+  justify-content: left;
+    align-items: left;
+	height: auto;
+	width: auto;
+}
 p {
 	 text-decoration: none;
    color: black;
@@ -87,7 +101,6 @@ p {
 font-family: monospace;
 	
 }
-
 #links{
 	display: grid;
         text-align: center;
@@ -101,11 +114,9 @@ text-transform: uppercase;
 transition: all 0.3s ease 0s;
 	
 }
-
 #links:hover{
   color: red;
 }
-
 #girl {
 	display: flex;
     justify-content: center;
@@ -114,40 +125,33 @@ transition: all 0.3s ease 0s;
       padding: 0px;
       margin: 0px;
 }
-
+img {
+	height: 45vh;
+  width: auto;
+ cursor: default;
+ 
+}
 .typewrite:hover {
 		color: black ;
 	 font-size: 3vh ;
 }
-
 nav{
 	 margin: 0 auto;
 	 text-align: center;
      width: 100vw;
 	 
 }
-div{
-display: flex;
-  justify-content: center;
-    align-items: center;
-	height: auto;
-	width: auto;
-} 
-
-
 #low {
   overflow: hidden;
   position: fixed;
   bottom: 0;
-{
-
+} 
 #high {
 	 width: 100vw;
   overflow: hidden;
   position: fixed;
   top: 0;
 } 
-
 #logo {
   overflow: hidden;
       letter-spacing: 0;
@@ -157,24 +161,19 @@ display: flex;
  font-size: 3vh;
  font-family: 'Josefin Sans', sans-serif;
  font-weight: 700;
-
 } 
-
 #logo:hover{
   color: white;
 }
-
 .fab {  
   padding: 25px 0px; 
 text-align: center;  
    
 }  
-
 .fa-twitter {  
  
   color: black;  
 }  
-
 .fa-twitter:hover{
 	color: #55ACEE;
 	
@@ -182,16 +181,13 @@ text-align: center;
 .fa-instagram {   
   color: black;  
 }  
-
 .fa-instagram:hover{
 	color: #e1306c;
 	
 }
-
 .fa-discord {    
   color: black;  
 }  
-
 .fa-discord:hover{
 	color: #5865F2 ;
 	
