@@ -198,14 +198,6 @@ transition: all 0.3s ease 0s;
       margin: 0px;
 }
 
-
-img {
-	height: 45vh;
-  width: auto;
- cursor: default;
- 
-}
-
 .typewrite:hover {
 		color: black ;
 	 font-size: 3vh ;
