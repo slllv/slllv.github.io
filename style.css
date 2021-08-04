@@ -24,7 +24,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-background-color:red;
+background-color:yellow;
   display: flex;
    /*this option by default dispose the elements in a row (flex-direction: row)*/
 }
@@ -77,7 +77,7 @@ a:hover{
 .wrapper {
 	position: relative;
 	width: 100vw;
-height: 60vh; /* just a default, can be anything. */
+height: 70vh; /* just a default, can be anything. */
 }
 
    .three-by-two { padding-bottom: 66.666%;
