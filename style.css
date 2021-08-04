@@ -24,7 +24,6 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-background-color:yellow;
   display: flex;
    /*this option by default dispose the elements in a row (flex-direction: row)*/
 }
@@ -61,7 +60,7 @@ font-family: monospace;
 transition: all 0.3s ease 0s;
 }
 a:hover{
-  color: red ;
+  color: #f7fa59 ;
   font-size: 4vh ;
 }
 .typewrite {
@@ -219,6 +218,8 @@ transition: all 0.3s ease 0s;
 	 font-size: 3vh ;
 }
 nav{
+color: #eeecc7;
+background-color: #e30103;
 	 margin: 0 auto;
 	 text-align: center;
      width: 100vw;
@@ -228,6 +229,8 @@ nav{
   overflow: hidden;
   position: fixed;
   bottom: 0;
+  color:#eeecc7;
+  background-color:#e30103;
 } 
 #high {
 	 width: 100vw;
