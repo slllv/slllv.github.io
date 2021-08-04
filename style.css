@@ -18,6 +18,8 @@ position: fixed;
 top:0;
 left: 0;
 right: 0;
+color: #eeecc7;
+background-color:#e30103;
 }
 
 ul {
@@ -227,8 +229,6 @@ transition: all 0.3s ease 0s;
 	 font-size: 3vh ;
 }
 nav{
-color: #eeecc7;
-background-color: #e30103;
 	 margin: 0 auto;
 	 text-align: center;
      width: 100vw;
@@ -256,6 +256,7 @@ background-color: #e30103;
  font-size: 3vh;
  font-family: 'Josefin Sans', sans-serif;
  font-weight: 700;
+color: #eeecc7;
 } 
 #logo:hover{
   color: white;
@@ -267,21 +268,21 @@ text-align: center;
 }  
 .fa-twitter {  
  
-  color: black;  
+  color: #eeecc7;  
 }  
 .fa-twitter:hover{
-	color: #55ACEE;
 	
+	color: #55ACEE;
 }
 .fa-instagram {   
-  color: black;  
+  color: #eeecc7;
 }  
 .fa-instagram:hover{
 	color: #e1306c;
 	
 }
 .fa-discord {    
-  color: black;  
+  color: #eeecc7;
 }  
 .fa-discord:hover{
 	color: #5865F2 ;
