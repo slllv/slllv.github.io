@@ -6,7 +6,7 @@ padding: 0px;
 display: flex;
 justify-content: center;
 align-items: center;
-height: auto;
+height: 100%;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
@@ -75,7 +75,8 @@ a:hover{
 
 .wrapper {
 	position: relative;
-top: 50vh;  bottom: 0;  left: 0;  right: 0;
+top: 0;  bottom: 0;  left: 0;  right: 0;
+padding-top: 50vh;
 	width: 95vh; /* just a default, can be anything. */
 }
 
