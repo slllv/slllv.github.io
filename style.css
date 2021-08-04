@@ -2,10 +2,11 @@
 body {
 background-color: #f0f2f6;
 margin: 0px;
+padding: 0px;
 display: flex;
 justify-content: center;
 align-items: center;
-height: 100vh;
+height: 100%;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
