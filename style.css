@@ -24,7 +24,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-background-color:gold;
+background-color:red;
   display: flex;
    /*this option by default dispose the elements in a row (flex-direction: row)*/
 }
@@ -76,11 +76,11 @@ a:hover{
 
 .wrapper {
 	position: relative;
-	width: 100vw; /* just a default, can be anything. */
+	width: 100vw;
+height: 60vh; /* just a default, can be anything. */
 }
 
    .three-by-two { padding-bottom: 66.666%;
-  width: 90vw;
     /*background-color: gold; */
    transform: rotate(90deg);
    }
@@ -90,6 +90,7 @@ a:hover{
 .content {
     position: absolute;
     top: 0;  bottom: 0;  left: 0;  right: 0;
+
 	margin: 0px;
 	padding-top: 0px;
 
