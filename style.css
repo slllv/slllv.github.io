@@ -50,7 +50,8 @@ a{
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Opera and Firefox */
   text-decoration: none;
-   color: black;
+background-color:#e30103;
+   color: #eeecc7;
    cursor: pointer;
    display: block;
     padding: 25px 25px;
@@ -123,7 +124,6 @@ object-fit: contain;
   cursor: pointer;
   transition: 0.3s;
 }
-
 #myImg:hover {opacity: 0.7;}
 
 /* The Modal (background) */
