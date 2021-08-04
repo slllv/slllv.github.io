@@ -301,12 +301,9 @@ text-align: center;
 	color: #5865F2 ;
 	
 }
-
-div{ 
+div {
 display: flex;
   justify-content: left;
     align-items: left;
 	height: auto;
-	width: auto;
-
-}
+	width: auto;}
