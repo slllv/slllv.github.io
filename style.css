@@ -273,7 +273,5 @@ text-align: center;
 }
 div {
 display: flex;
-  justify-content: left;
-    align-items: left;
-	height: auto;
-	width: auto;}
+  justify-content: center;
+    align-items: center;}
