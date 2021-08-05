@@ -50,7 +50,7 @@ a{
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Opera and Firefox */
   text-decoration: none;
-   color: black;
+     color: #eeecc7;
    cursor: pointer;
    display: block;
     padding: 25px 25px;
@@ -62,7 +62,7 @@ font-family: monospace;
 transition: all 0.3s ease 0s;
 }
 a:hover{
-  color: red;
+  color:e30103 ;
   font-size: 4vh ;
 }
 .typewrite {
