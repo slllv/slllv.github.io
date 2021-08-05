@@ -1,5 +1,6 @@
 
 body {
+overflow: hidden;
 background-color: #f0f2f6;
 margin: 0px;
 padding: 0px;
@@ -87,7 +88,7 @@ a:hover{
                                   supported by Chrome, Opera and Firefox */
 	position: relative;
 	width: 100vw;
-height: 63vh; /* just a default, can be anything. */
+height: 56vh; /* just a default, can be anything. */
 }
 
    .three-by-two { padding-bottom: 66.666%;
