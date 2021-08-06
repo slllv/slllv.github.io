@@ -57,12 +57,12 @@ opacity: 0.8;
 #list{
 	display: block;
 	overflow: hidden;
-	margin-top: 30vh;
 	padding-top: 0px;
+        height: 200vh;
 }
 .featured{
 	text-decoration: none;
-	padding: 20px 0px;
+	padding:  20px 0px;
 	width: 75vw;
    color: black;
    display: block;
