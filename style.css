@@ -10,6 +10,106 @@ align-items: center;
 height: 100vh;
 }
 
+.shop{
+	Overflow-y:scroll;
+	display: block;
+}
+h2{
+	text-decoration: none;
+   color: black;
+   display: block;
+   text-align: center;
+  /*I added some padding*/
+    margin-bottom: 10px;
+    padding: 25px 25px;
+    text-transform: uppercase;
+	font-size: 5vh ;
+  /*also changed the font family but that's totally irrelevant*/
+font-family: 'Josefin Sans', sans-serif;
+transition: all 0.3s ease 0s;
+opacity: 0.8;
+}
+#logobig
+{
+	background-color: black;
+	color: white;
+	  overflow: hidden;
+      letter-spacing: 0;
+	  cursor: pointer;
+ font-size: 6vh;
+ font-family: 'Josefin Sans', sans-serif;
+ font-weight: 700;
+ 	display: block;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  margin-bottom: 10px;
+	
+}
+
+#logobig:hover{
+	color: gold;
+	
+}
+#list{
+	display: block;
+	overflow: hidden;
+	margin-top: 30vh;
+	padding-top: 200vh;
+	height: 300vh;
+}
+.featured{
+	text-decoration: none;
+	padding: 20px 0px;
+	width: 75vw;
+   color: black;
+   display: block;
+   text-align: center;
+  /*I added some padding*/
+    letter-spacing: .17em;
+    text-transform: uppercase;
+	background-color: gold;
+	border-radius: 0%;
+	font-size: 3vh;
+  /*also changed the font family but that's totally irrelevant*/
+font-family: monospace;
+transition: all 0.3s ease 0s;
+	
+}
+
+.featured:hover{
+	color: black;
+  opacity: 0.5;
+  font-size: 3vh;
+}
+.shoplink {
+	width: 100vw;
+padding: 20px 0px;
+	width: 75vw;
+	text-align: center;
+	text-decoration: none;
+   color: white;
+   display: block;
+  /*I added some padding*/
+    letter-spacing: .17em;
+    text-transform: uppercase;
+		background-color: black;
+
+	border-radius: 0%;
+	font-size: 3vh;
+  /*also changed the font family but that's totally irrelevant*/
+font-family: monospace;
+transition: all 0.3s ease 0s;
+}
+
+.shoplink:hover {
+	color: white;
+  opacity: 0.5;
+  font-size: 3vh;
+}
+
+
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
 header{
 z-index: 3;
