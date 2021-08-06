@@ -57,8 +57,8 @@ opacity: 0.8;
 #list{
 	display: block;
 	overflow: hidden;
-	top: 50px;
-        height: 300vh;
+	top: 100px;
+        height: 250vh;
 }
 .featured{
 	text-decoration: none;
