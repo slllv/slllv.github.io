@@ -12,6 +12,7 @@ height: 100vh;
 
 .shop{
 	Overflow-y:scroll;
+        scroll-behavior: smooth;
 	display: block;
 }
 h2{
@@ -19,7 +20,7 @@ h2{
    color: black;
    display: block;
    text-align: center;
-  /*I added some padding*/
+  /*I added some paddingscroll-behavior: smooth;*/
     margin-bottom: 10px;
     padding: 25px 25px;
     text-transform: uppercase;
