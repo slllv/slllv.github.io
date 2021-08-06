@@ -44,7 +44,9 @@ opacity: 0.8;
   position: fixed;
   text-align: center;
   top: 0;
-  width: auto;
+  left:0;
+  right:0;
+  width: 100%;
   margin-bottom: 10px;
 	
 }
@@ -57,7 +59,7 @@ opacity: 0.8;
 	display: block;
 	overflow: hidden;
 	margin-top: 30vh;
-	padding-top: 25vh;
+	padding-top: 50px;
 	height: 300vh;
 }
 .featured{
