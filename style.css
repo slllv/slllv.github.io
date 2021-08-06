@@ -46,8 +46,7 @@ opacity: 0.8;
   top: 0;
   left:0;
   right:0;
-  width: 100vw;
-  margin-bottom: 10px;
+  width:auto;
 	z-index: 4;
 }
 
@@ -59,7 +58,7 @@ opacity: 0.8;
 	display: block;
 	overflow: hidden;
 	margin-top: 30vh;
-	padding-top: 50px;
+	padding-top: 0px;
 	height: 300vh;
 }
 .featured{
