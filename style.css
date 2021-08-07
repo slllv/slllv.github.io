@@ -161,7 +161,7 @@ a{
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Opera and Firefox */
   text-decoration: none;
-     color: #eeecc7;
+     color: white;
    cursor: pointer;
    display: block;
     padding: 20px 20px;
@@ -347,7 +347,7 @@ nav{
   overflow: hidden;
   position: fixed;
   bottom: 0;
-  color:#eeecc7;
+  color: white;
   background-color:#e30103;
 } 
 #high {
@@ -365,7 +365,7 @@ nav{
  font-size: 3vh;
  font-family: 'Josefin Sans', sans-serif;
  font-weight: 700;
-color: #eeecc7;
+color: white;
 } 
 #logo:hover{
   color: white;
