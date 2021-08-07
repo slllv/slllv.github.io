@@ -94,9 +94,9 @@ transition: all 0.3s ease 0s;
   font-size: 3vh;
 }
 .shoplink {
-       
+       padding: 20px 0px;
         margin-bottom:30px;
-	width: auto;
+	width: 75vw;
 	text-align: center;
 	text-decoration: none;
    color: white;
