@@ -95,7 +95,7 @@ transition: all 0.3s ease 0s;
 }
 .shoplink {
 	width: 100vw;
-padding: 20px 0px;
+padding-bottom: 3vh;
 	width: 75vw;
 	text-align: center;
 	text-decoration: none;
