@@ -95,8 +95,8 @@ transition: all 0.3s ease 0s;
 }
 .shoplink {
        
-        margin-bottom:20px;
-	width: 75vw;
+        margin-bottom:30px;
+	width: auto;
 	text-align: center;
 	text-decoration: none;
    color: white;
