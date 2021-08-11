@@ -130,7 +130,7 @@ top:0;
 left: 0;
 right: 0;
 color: #eeecc7;
-background-color:#e30103;
+background-color: black;
 }
 
 ul {
@@ -348,7 +348,7 @@ nav{
   position: fixed;
   bottom: 0;
   color: white;
-  background-color:#e30103;
+  background-color:#black;
 } 
 #high {
 	 width: 100vw;
