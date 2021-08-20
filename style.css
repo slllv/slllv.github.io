@@ -197,8 +197,8 @@ a:hover{
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Opera and Firefox */
 	position: relative;
-	width: 100vw;
-height: 5vh; /* just a default, can be anything. */
+	width: 75vw;
+height: 30vh; /* just a default, can be anything. */
 }
 
    .three-by-two { padding-bottom: 66.666%;
