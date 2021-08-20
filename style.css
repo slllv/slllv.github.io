@@ -198,7 +198,7 @@ a:hover{
                                   supported by Chrome, Opera and Firefox */
 	position: relative;
 	width: 100vw;
-height: 30vw; /* just a default, can be anything. */
+height: 5vh; /* just a default, can be anything. */
 }
 
    .three-by-two { padding-bottom: 66.666%;
