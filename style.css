@@ -197,7 +197,7 @@ a:hover{
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Opera and Firefox */
 	position: relative;
-	width: 75vw;
+	width: 85vw;
 height: 30vh; /* just a default, can be anything. */
 }
 
