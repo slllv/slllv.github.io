@@ -377,24 +377,24 @@ text-align: center;
 }  
 .fa-twitter {  
  
-  color: white;  
+  color: #55ACEE;  
 }  
 .fa-twitter:hover{
 	
-	color: #55ACEE;
+	color: white;
 }
 .fa-instagram {   
-  color: white;
+  color:   #e1306c ;
 }  
 .fa-instagram:hover{
-	color: #e1306c;
+	color: white;
 	
 }
 .fa-discord {    
-  color: #white;
+  color: #5865F2;
 }  
 .fa-discord:hover{
-	color: #5865F2 ;
+	color: white;
 	
 }
 div {
