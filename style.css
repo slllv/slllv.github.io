@@ -106,7 +106,9 @@ color: aqua;
 	
 }
 #list{
-	display: block;
+	display: flex;
+justify-content: center;
+align-items: center;
 	overflow: hidden;
 	margin-top: 15px;
         height: 230vh;
