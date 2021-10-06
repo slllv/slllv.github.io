@@ -106,9 +106,8 @@ color: aqua;
 	
 }
 #list{
-	display: flex;
-justify-content: center;
-align-items: center;
+	display: block;
+ right: 0; left:0;
 	overflow: hidden;
 	margin-top: 15px;
         height: 230vh;
@@ -202,9 +201,6 @@ ul {
   padding: 0;
   display: flex;
    /*this option by default dispose the elements in a row (flex-direction: row)*/
-justify-content: center;
-align-items: center;
-text-align:center;
 }
 li{
   list-style-type: none;  
