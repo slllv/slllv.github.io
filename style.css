@@ -1,12 +1,11 @@
+
 body {
-overflow: hidden;
 background-color: #f0f2f6;
 margin: 0px;
 padding: 0px;
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100vh;
+Overflow-y:scroll;
+Overflow-x:hidden;
+        scroll-behavior: smooth;
 }
 
 .shop{
@@ -14,6 +13,33 @@ height: 100vh;
         scroll-behavior: smooth;
 	display: block;
 }
+
+h1{
+-webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: Rgba(0,0,0,0);
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+	text-decoration: none;
+   color: white;
+   background-color: #101010;
+   display: block;
+   text-align: center;
+  /*I added some paddingscroll-behavior: smooth;*/
+    margin-bottom: 10px;
+    padding: 25px 25px;
+    text-transform: uppercase;
+	font-size: 4vh ;
+  /*also changed the font family but that's totally irrelevant*/
+font-family: 'Josefin Sans', sans-serif;
+transition: all 0.3s ease 0s;
+/*opacity: 0.8;*/
+}
+
 h2{
 -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: Rgba(0,0,0,0);
@@ -56,6 +82,23 @@ opacity: 0.8;
   right:0;
   width:auto;
 	z-index: 4;
+}
+
+#info
+{
+overflow: hidden;
+     display: block;
+      letter-spacing: 0;
+	  cursor: pointer;
+  margin-right: 25px;
+ font-size: 13px;
+ font-family: 'Josefin Sans', sans-serif;
+ font-weight: 700;
+color: aqua;
+}
+
+#info:hover{
+  color: white
 }
 
 #logobig:hover{
@@ -119,18 +162,36 @@ transition: all 0.3s ease 0s;
 }
 
 
+
+
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
 header{
 z-index: 3;
-	justify-content: space-between;
-	align-items: center ;
-	display: flex;
 position: fixed;
+	display: flex;
+	justify-content: space-between;
+align-items: center;
+text-align: center;
 top:0;
 left: 0;
 right: 0;
 color: #eeecc7;
 background-color: black;
+}
+
+footer{
+z-index: 3;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+bottom:0;
+left: 0;
+right: 0;
+/*background-color: white;*/
+margin: 0;
+padding: 50px;
+
 }
 
 ul {
@@ -143,8 +204,7 @@ ul {
 li{
   list-style-type: none;  
   /*when I specify 2 values to margin, the first one is for the top and bottom side, the second for the left and right side*/
-    margin-left: auto;
-    margin-right: auto;
+   
 }
 input,
 textarea,
@@ -186,8 +246,20 @@ a:hover{
   font-weight: 700;
 }
 
-.wrapper {
--webkit-tap-highlight-color: transparent;
+
+ img{
+ height: 100%;
+width: 100%;
+object-fit: contain;
+margin: 0;
+padding:0;
+transition: all 0.3s ease 0s;
+	 
+ }
+ 
+ 
+p {
+	-webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: Rgba(0,0,0,0);
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
@@ -196,117 +268,16 @@ a:hover{
         -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Opera and Firefox */
-	position: relative;
-	width: 85vw;
-height: 30vh; /* just a default, can be anything. */
-}
-
-   .three-by-two { padding-bottom: 66.666%;
-    /*background-color: gold; */
-   transform: rotate(90deg);
-   }
-  .four-by-three.aspect-ratio { padding-bottom: 75% }
-.sixteen-by-nine.aspect-ratio { padding-bottom: 56.25% }
-
-.content {
-    position: absolute;
-    top: 0;  bottom: 0;  left: 0;  right: 0;
-
-	margin: 0px;
-	padding-top: 0px;
-
-}
-.content-2 {
-    position: absolute;
-    top: 0;  bottom: 0;  left: 0;  right: 0;
-	margin: 0px;
-	padding:0px;
-}
- img{
- height: 100%;
-width: 100%;
-object-fit: contain;
-	 
- }
- 
- #myImg {
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-align-items: center;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-}
-
-/* Modal Content (Image) */
-.modal-content {
-  margin: 0;
-  display: block;
-  position: absolute;
-top: 0;  bottom: 0;  left: 0;  right: 0;
-  width: 50vw;
-height: auto;
-}
-
-
-
-/* Add Animation - Zoom in the Modal */
-.modal-content, #caption {
-  animation-name: zoom;
-  animation-duration: 0.6s;
-}
-
-@keyframes zoom {
-  from {transform:scale(0)}
-  to {transform:scale(1)}
-}
-
-/* The Close Button */
-.close {
-  position: absolute;
-  top: 15px;
-  z-index: 2;
-  right: 35px;
-  color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-.close:hover,
-.close:focus {
-  color: #bbb;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-  .modal-content {
-    width: 100%;
-  }
-}
-p {
+	top: 0;
+	bottom: 0;
 	 text-decoration: none;
    color: black;
-   word-wrap: break-word;
+  word-wrap: break-word;
    font-size:4vh;
-    padding: 0px 5vw 25px;
+    padding: 0;
+	margin: 0;
 font-family: monospace;
-	
+	cursor: default;
 }
 #links{
 	display: grid;
@@ -324,80 +295,183 @@ transition: all 0.3s ease 0s;
 #links:hover{
   color: red;
 }
-#girl {
-	display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50vh;
-      padding: 0px;
-      margin: 0px;
-}
 
 .typewrite:hover {
 		color: black ;
 	 font-size: 3vh ;
 }
+
 nav{
 	 margin: 0 auto;
 	 text-align: center;
      width: 100vw;
 	 
 }
-#low {
-  overflow: hidden;
-  position: fixed;
-  bottom: 0;
-  color: white;
-  background-color: black;
-} 
-#high {
-	 width: 100vw;
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-} 
+
 #logo {
   overflow: hidden;
       letter-spacing: 0;
 	  cursor: pointer;
   top: 0;
   left: 0;
- font-size: 3vh;
+  margin-left: 15px;
+ font-size: 8vh;
  font-family: 'Josefin Sans', sans-serif;
  font-weight: 700;
 color: white;
 } 
-#logo:hover{
-  color: white;
-}
-.fab {  
-  padding: 25px 0px; 
-text-align: center;  
-   
-}  
-.fa-twitter {  
- 
-  color: #55ACEE;  
-}  
-.fa-twitter:hover{
-	
-	color: white;
-}
-.fa-instagram {   
-  color:   #e1306c ;
-}  
-.fa-instagram:hover{
-	color: white;
-	
-}
-.fa-discord {    
-  color: #5865F2;
-}  
-.fa-discord:hover{
-	color: white;
-	
-}
+
+
 div {
-display: flex;
-  justify-content: center;
-    align-items: center;}
+	padding: 0;
+	margin: 0;
+}
+
+
+@media(min-width: 760px){
+	.container {
+	display: flex;
+	padding: 0;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: center;
+	/*border: 5px black solid;*/
+	flex-wrap: wrap;
+	}
+	.box {
+		
+			width: 30vw;
+	height: 30vw;
+		
+		
+	}
+
+    .original{height: 70vw;}
+	.free{height: 40vw;}
+	.upcoming{height: 70vw;}
+}
+
+@media(max-width: 760px){
+	.container {
+	display: flex;
+	padding: 0;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: center;
+	/*border: 5px black solid;*/
+	flex-wrap:wrap;
+	}
+	.box {
+		
+			width: 45vw;
+	height: 45vw;
+	
+		
+	}
+	
+	  .original{height: 145vw;}
+	.free{height: 55vw;}
+	.upcoming{height: 145vw;}
+	
+}
+
+.box{
+	border-radius: 15px;
+	overflow: hidden;
+	transition: all 0.3s ease 0s;	
+}
+
+
+.tile1:hover {
+	border: 5px red solid;
+	
+}
+.tile2:hover {
+	border: 5px red solid;
+}
+.tile3:hover {
+	border: 5px red solid;
+}
+.tile4:hover {
+	border: 5px red solid;
+}
+.tile5:hover {
+	border: 5px red solid;
+}
+.tile6:hover {
+	border: 5px red solid;
+}
+
+.tile1 {
+	display:flex;
+	order: 1;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	background-color: black;
+}
+
+.tile2 {
+		display:flex;
+	order: 2;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	background-color: black;	
+}
+
+.tile3 {
+	display:flex;
+	order: 3;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	background-color: black;
+}
+
+.tile4 {
+	display:flex;
+	order: 4;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	background-color: black;
+}
+
+.tile5 {
+	display:flex;
+	order: 5;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	background-color: black;
+}
+
+.tile6 {
+	display:flex;
+	order: 6;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	background-color: black;
+}
+
+.hide:hover
+{
+	opacity: 0;
+}
+
+
+
+.character {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+.character:hover {
+	margin: 0;
+	padding: 0;	
+}
+
+
