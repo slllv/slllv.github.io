@@ -106,7 +106,11 @@ color: aqua;
 	
 }
 #list{
-	display: block;
+	display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
  right: 0; left:0;
 	overflow: hidden;
 	margin-top: 15px;
