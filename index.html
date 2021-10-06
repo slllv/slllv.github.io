@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>SLLLV™ Official Website</title>
+<title>SLLLV Official Website</title>
 <link href="style.css" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <link href="manifest.webmanifest" rel="manifest">
@@ -12,74 +12,75 @@
 <link rel="icon" type="image/png" href="icon.png"/>
 </head>
 
-<body>
+<body> <!--oncontextmenu="return false;"-->
 
 <header>
-<li><a href="index.html"onContextMenu="return false;" title="Home" id="logo">SLLLV///</a></li>
-<nav>
-<ul>
-
-<li><a href="https://twitter.com/slllvdot" onContextMenu="return false;" class="fab fa-twitter" target="_blank"></a></li>
-<li><a href="https://discord.gg/Y4P6NE3xrj" onContextMenu="return false;"class="fab fa-discord" title="Announcements" target="_blank"></a></li>
-<li><a href="https://www.instagram.com/claudiondanu" title="Profile" onContextMenu="return false;" class="fab fa-instagram" target="_blank"></a></li>
-
-</ul>
-</nav>
-<li><a onContextMenu="return false;" href="https://slllv.artstation.com" id="contact" >WORKS</a></li>
+<a href="index.html"onContextMenu="return false;" id="logo">SLLLV///</a>
+<a onContextMenu="return false;" href="#" id="info">Info</a>
 </header>
- 
 
-<div onContextMenu="return false;" class="wrapper">
-	<div class="three-by-two"></div>
-	<div class="content">
-	<a href="#" onContextMenu="return false;"><img id="myImg" src="logo.svg"></a>
-	</div>
+
+<br><br><br><br><br>
+<h2>Choose your Tween!</h2>
+<br>
+
+
+<h1>ORIGINALS///</h1>
+
+
+<div class="container original">
+<!--<div style='background-image: url("lofigirl_playlist_cover_jp.png"); background-size: 100% 100%;' class="tile1 box"><a class="character" href=#><img class="hide" src="lofigirl_original.png"></a></div>-->
+<a class="character"  href=#><div class="tile1 box">EMPTY</div></a>
+<a class="character"  href=#><div class="tile2 box">EMPTY</div></a>
+<a class="character"  href=#><div class="tile3 box ">EMPTY</div></a>
+<a class="character"  href=#><div class="tile4 box">EMPTY</div></a>
+<a class="character"  href=#><div class="tile5 box ">EMPTY</div></a>
+<a class="character"  href=#><div class="tile6 box">EMPTY</div></a>
 </div>
 
 
+<br><br><br>
 
 
-
-
-
-<!--<div onContextMenu="return false;"id="girl">
- <img src="girl.png" onContextMenu="return false;" alt="Angel of patience" title ="Please, do not bother me." width="50vh" height="50vh"> 
+<!--
+<h1 style="color:orange;">///Halloween Free Trial</h1>
+<div class="container free">
+<a class="character"  href=#><div class="tile1 box">EMPTY</div></a>
+<a class="character"  href=#><div class="tile2 box">EMPTY</div></a>
+<a class="character"  href=#><div class="tile3 box ">EMPTY</div></a>
+<a class="character"  href=#><div class="tile4 box">EMPTY</div></a>
+<a class="character"  href=#><div class="tile5 box ">EMPTY</div></a>
+<a class="character"  href=#><div class="tile6 box">EMPTY</div></a>
 </div>
 
-<div>
- <a class="typewrite" data-period="2000" data-type='[ "Patience...", "New projects soon." ]'>
-    <span class="wrap"></span>
-  </a>
-</div> -->
+
+<br><br><br>
+
+<h1 style="color:aqua;">///Upcoming</h1>
 
 
-<nav id="low">
-<ul>
-<li><a href="#" onContextMenu="return false;">MESSAGE</a></li>
-<li><a href="https://medium.com/@SLLLV" onContextMenu="return false;">BLOG</a></li>
-<li><a href="about.html"onContextMenu="return false;" >ABOUT</a></li>
-</ul>
-</nav>
+<div class="container upcoming">
+<a class="character"  href=#><div class="tile1 box">EMPTY</div></a>
+<a class="character"  href=#><div class="tile2 box">EMPTY</div></a>
+<a class="character"  href=#><div class="tile3 box ">EMPTY</div></a>
+<a class="character"  href=#><div class="tile4 box">EMPTY</div></a>
+<a class="character"  href=#><div class="tile5 box ">EMPTY</div></a>
+<a class="character"  href=#><div class="tile6 box">EMPTY</div></a>
+</div>
+
+-->
+
+
+<br><br><br>
+<footer>
+<p style="opacity: 0.5; font-family: 'Josefin Sans', sans-serif; font-size: 17px;
+display: flex; justify-contents:center; align-items: center;">CPR. SLLLV Productions<br>all rights reserved.</p>
+</footer>
 
 
 
 
 
-
-
-<script>
-if ('serviceWorker' in navigator) {
-
-  navigator.serviceWorker
-    .register('./service-worker.js', { scope: './' })
-    .then(function(registration) {
-      console.log("Service Worker Registered");
-    })
-    .catch(function(err) {
-      console.log("Service Worker Failed to Register", err);
-    })
-
-}
 
 
 
