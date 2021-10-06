@@ -199,7 +199,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  display: flex;
+  display: block;
    /*this option by default dispose the elements in a row (flex-direction: row)*/
 }
 li{
