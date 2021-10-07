@@ -1,5 +1,14 @@
 
 body {
+	-webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: Rgba(0,0,0,0);
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
 background-color: #f0f2f6;
 margin: 0px;
 padding: 0px;
@@ -24,6 +33,7 @@ h1{
         -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Opera and Firefox */
+								  cursor: default;
 	text-decoration: none;
    color: white;
    background-color: #101010;
@@ -107,11 +117,10 @@ color: aqua;
 }
 #list{
 	display: flex;
-flex-direction: column;
-justify-content: center;
+	flex-direction: column;
+	justify-content: center;
 align-items: center;
 text-align: center;
- right: 0; left:0;
 	overflow: hidden;
 	margin-top: 15px;
         height: 230vh;
@@ -153,7 +162,7 @@ transition: all 0.3s ease 0s;
     text-transform: uppercase;
 		background-color: black;
 
-	border-radius: 0%;
+	border-radius: 15px;
 	font-size: 3vh;
   /*also changed the font family but that's totally irrelevant*/
 font-family: monospace;
@@ -203,7 +212,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  display: block;
+  display: flex;
    /*this option by default dispose the elements in a row (flex-direction: row)*/
 }
 li{
@@ -352,7 +361,6 @@ div {
 	}
 
     .original{height: 70vw;}
-	.free{height: 40vw;}
 	.upcoming{height: 70vw;}
 }
 
@@ -375,7 +383,6 @@ div {
 	}
 	
 	  .original{height: 145vw;}
-	.free{height: 55vw;}
 	.upcoming{height: 145vw;}
 	
 }
@@ -386,6 +393,14 @@ div {
 	transition: all 0.3s ease 0s;	
 }
 
+.box:hover {
+	border-radius: 100%;
+}
+
+.upcoming .box:hover{
+	border: none;
+	border-radius: 100%;
+}
 
 .tile1:hover {
 	border: 5px red solid;
@@ -478,5 +493,10 @@ div {
 	margin: 0;
 	padding: 0;	
 }
+
+
+
+
+
 
 
