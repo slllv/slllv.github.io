@@ -65,7 +65,7 @@ h2{
    display: block;
    text-align: center;
   /*I added some paddingscroll-behavior: smooth;*/
-    margin-bottom: 10px;
+    margin: 0px;
     padding: 25px 25px;
     text-transform: uppercase;
 	font-size: 5vh ;
@@ -84,13 +84,16 @@ opacity: 0.8;
  font-size: 6vh;
  font-family: 'Josefin Sans', sans-serif;
  font-weight: 700;
- 	display: block;
+ 	display: flex;
   position: fixed;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   top: 0;
   left:0;
   right:0;
   width:auto;
+  height: 15vh;
 	z-index: 4;
 }
 
@@ -118,16 +121,16 @@ color: aqua;
 #list{
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: space-evenly;
 align-items: center;
 text-align: center;
 	overflow: hidden;
-	margin-top: 15px;
-        height: 230vh;
+	margin-top: 10px;
+        height: 250vh;
 }
 .featured{
 	text-decoration: none;
-	padding:  20px 0px;
+	padding:  15px 0px;
 	width: 75vw;
    color: black;
    display: block;
@@ -150,20 +153,24 @@ transition: all 0.3s ease 0s;
   font-size: 3vh;
 }
 .shoplink {
-       padding: 20px 0px;
-        margin-bottom:15px;
+       padding: 8vh 0px;
+        margin: 0px;
 	width: 75vw;
+	height: 30%;
 	text-align: center;
 	text-decoration: none;
    color: white;
-   display: block;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
   /*I added some padding*/
     letter-spacing: .17em;
-    text-transform: uppercase;
+    
 		background-color: black;
 
 	border-radius: 15px;
-	font-size: 3vh;
+	font-size: 4vh;
   /*also changed the font family but that's totally irrelevant*/
 font-family: monospace;
 transition: all 0.3s ease 0s;
@@ -172,7 +179,6 @@ transition: all 0.3s ease 0s;
 .shoplink:hover {
 	color: white;
   opacity: 0.5;
-  font-size: 3vh;
 }
 
 
@@ -189,6 +195,7 @@ text-align: center;
 top:0;
 left: 0;
 right: 0;
+height:17vh;
 color: #eeecc7;
 background-color: black;
 }
@@ -238,7 +245,8 @@ a{
      color: white;
    cursor: pointer;
    display: block;
-    padding: 20px 20px;
+    padding: 0px;
+	margin:0px;
     letter-spacing: .17em;
     text-transform: uppercase;
 	font-size: 2vh ;
@@ -248,7 +256,6 @@ transition: all 0.3s ease 0s;
 }
 a:hover{
   color:e30103 ;
-  font-size: 4vh ;
 }
 .typewrite {
 		font-size: 3vh ;
@@ -390,7 +397,7 @@ div {
 .box{
 	border-radius: 15px;
 	overflow: hidden;
-	transition: all 0.3s ease 0s;	
+	transition: all 0.8s ease 0s;	
 }
 
 .box:hover {
