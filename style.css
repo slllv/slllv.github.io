@@ -170,7 +170,7 @@ transition: all 0.3s ease 0s;
 		background-color: black;
 
 	border-radius: 15px;
-	font-size: 4vh;
+	font-size: 3vh;
   /*also changed the font family but that's totally irrelevant*/
 font-family: monospace;
 transition: all 0.3s ease 0s;
