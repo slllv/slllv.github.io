@@ -436,7 +436,6 @@ background: none;
 	align-items: center;
 	text-align: center;
 	justify-content: center;
-	background-color: black;
 }
 
 .tile2 {
@@ -444,8 +443,7 @@ background: none;
 	order: 2;
 	align-items: center;
 	text-align: center;
-	justify-content: center;
-	background-color: black;	
+	justify-content: center;	
 }
 
 .tile3 {
@@ -454,7 +452,6 @@ background: none;
 	align-items: center;
 	text-align: center;
 	justify-content: center;
-	background-color: black;
 }
 
 .tile4 {
@@ -463,7 +460,6 @@ background: none;
 	align-items: center;
 	text-align: center;
 	justify-content: center;
-	background-color: black;
 }
 
 .tile5 {
@@ -472,7 +468,6 @@ background: none;
 	align-items: center;
 	text-align: center;
 	justify-content: center;
-	background-color: black;
 }
 
 .tile6 {
@@ -480,8 +475,7 @@ background: none;
 	order: 6;
 	align-items: center;
 	text-align: center;
-	justify-content: center;
-	background-color: black;
+	justify-content: center;i
 }
 
 .hide:hover
