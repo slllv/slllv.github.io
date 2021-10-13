@@ -368,7 +368,7 @@ div {
 	}
 
     .original{height: 70vw;}
-	.upcoming{height: 70vw;}
+	.upcoming{height: 30vw;}
 }
 
 @media(max-width: 760px){
@@ -390,7 +390,7 @@ div {
 	}
 	
 	  .original{height: 145vw;}
-	.upcoming{height: 145vw;}
+	.upcoming{height: 100vw;}
 	
 }
 
