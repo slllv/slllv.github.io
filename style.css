@@ -395,19 +395,14 @@ div {
 }
 
 .box{
-	border-radius: 15px;
+	border-radius: 100%;
 	overflow: hidden;
 	transition: all 0.8s ease 0s;	
 background: none;
 }
 
-.box:hover {
-	border-radius: 100%;
-}
-
 .upcoming .box:hover{
 	border: none;
-	border-radius: 100%;
 }
 
 .tile1:hover {
@@ -489,6 +484,7 @@ background: none;
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
+color:black;
 }
 
 .character:hover {
