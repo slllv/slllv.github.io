@@ -13,6 +13,7 @@ background-color: #f0f2f6;
 margin: 0px;
 padding: 0px;
 Overflow-y:scroll;
+max-width: 100%;
 Overflow-x:hidden;
         scroll-behavior: smooth;
 }
