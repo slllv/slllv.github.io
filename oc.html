@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html id="top" lang="en">
+<head>
+<title>SLLLV Official Website</title>
+<link href="style.css" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link href="manifest.webmanifest" rel="manifest">
+<script type="text/javascript" src="script.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- background color is #f0f2f6 -->
+<link rel="icon" type="image/png" href="icon.png"/>
+</head>
+
+<body>
+<div id="checkout-container">
+<div class="prespic"><img class="pic" src="001.jpg"> </div>
+<div class="checkout">
+
+<p style="
+      letter-spacing: 0;
+	      text-transform: uppercase;
+ font-size: 4vh;
+ font-family: 'Josefin Sans', sans-serif;
+ font-weight: 700;
+color: black;">What you will get:</p>
+<ol><li>
+<a style="font-size:4vh;color:red; font-family: 'Josefin Sans', sans-serif;';" href="https://creativecommons.org/licenses/by-nc/4.0/"> CC BY-NC 4.0 License </a> </li>
+<li><p>Hq Presentation Picture</p></li>
+<li><p>Original character ID</p></li>
+<li><p style="padding-bottom: 20 px;">x3 PFPs(profile pictures)</p></li>
+<li><p style="padding-bottom: 20 px;">+PSD Files</p></li>
+</ol>
+<div id="smart-button-container">
+      <div style="text-align: center;">
+        <div id="paypal-button-container"></div>
+      </div>
+    </div>
+  <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
+ 
+ <div id="smart-button-container">
+      <div style="text-align: center;" >
+        <div id="paypal-button-container"></div>
+      </div>
+    </div>
+  <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
+  <script>
+    function initPayPalButton() {
+      paypal.Buttons({
+        style: {
+          shape: 'rect',
+          color: 'black',
+          layout: 'vertical',
+          label: 'paypal',
+          
+        },
+
+        createOrder: function(data, actions) {
+          return actions.order.create({
+            purchase_units: [{"description":"Original character by SLLLV","amount":{"currency_code":"USD","value":111}}]
+          });
+        },
+
+        onApprove: function(data, actions) {
+          return actions.order.capture().then(function(orderData) {
+            
+            // Full available details
+            console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+
+            // Show a success message within this page, e.g.
+            const element = document.getElementById('paypal-button-container');
+            element.innerHTML = '';
+            element.innerHTML = '<h3>Thank you for your payment!</h3>';
+
+            // Or go to another URL:  actions.redirect('thank_you.html');
+            actions.redirect('https://drive.google.com/folderview?id=1DmHivI3gAbn-7IoBUlZSfsEGVYmnSWS8&authuser=1');
+          });
+        },
+
+        onError: function(err) {
+          console.log(err);
+        }
+      }).render('#paypal-button-container');
+    }
+    initPayPalButton();
+  </script>
+</div>
+
+</div>
+</body>
+
+
+
+
+
+
+
+</html>
