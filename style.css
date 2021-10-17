@@ -369,6 +369,7 @@ div {
 
     .original{height: 70vw;}
 	.upcoming{height: 30vw;}
+
 }
 
 @media(max-width: 760px){
@@ -385,13 +386,50 @@ div {
 		
 			width: 45vw;
 	height: 45vw;
+	.prespic {
+	width:50vw;
+	height:100vh;
+	}
 	
+	.checkout{
+	width:50vw;
+	height:100vh;
+	}
+	
+	#checkout-container {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	
+	}
 		
 	}
 	
 	  .original{height: 145vw;}
 	.upcoming{height: 100vw;}
 	
+
+.prespic {
+	width:100vw;
+	height:100vh;
+	}
+	
+	.checkout{
+	width:100vw;
+	height:100vh;
+		
+	}
+	
+	#checkout-container {
+	display: flex;
+	width: 100vw;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	flex-direction: column;
+	}
 }
 
 .box{
@@ -494,6 +532,39 @@ color:black;
 
 
 
+.prespic {
+	margin: 0;
+	padding:0;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	text-align:center;
+}
+
+	.checkout{
+    display: flex;
+	justify-content: center;
+	align-items:center;
+	text-align:center;
+	flex-direction:column;
+		
+	}
+
+.pic{
+ height: 100%;
+width: auto;
+object-fit: contain;
+margin: 0;
+padding:0;
+transition: all 0.3s ease 0s;
+	 
+ }
+ 
+ ol{
+	 
+	 margin: 0;
+padding:0;
+ }
 
 
 
