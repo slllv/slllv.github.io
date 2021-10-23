@@ -441,7 +441,7 @@ background: none;
 }
 
 .upcoming .box:hover{
-	border: none;
+	border: 5px red solid;
 }
 
 .tile1:hover {
