@@ -37,7 +37,7 @@ h1{
 								  cursor: default;
 	text-decoration: none;
    color: white;
-   background-color: #101010;
+   background-color: grey;
    display: block;
    text-align: center;
   /*I added some paddingscroll-behavior: smooth;*/
@@ -196,7 +196,7 @@ text-align: center;
 top:0;
 left: 0;
 right: 0;
-height:21vh;
+height:19vh;
 color: #eeecc7;
 background-color: black;
 }
