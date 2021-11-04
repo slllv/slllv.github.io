@@ -441,7 +441,7 @@ background: none;
 }
 
 .upcoming .box:hover{
-	border: 5px aqua solid;
+	border: 5px #00ffaa solid;
 }
 
 .tile1:hover {
