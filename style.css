@@ -78,7 +78,7 @@ opacity: 0.8;
 #logobig
 {
 	background-color: black;
-	color: white;
+	color: #00ba7c;
 	  overflow: hidden;
       letter-spacing: 0;
 	  cursor: pointer;
@@ -94,7 +94,7 @@ opacity: 0.8;
   left:0;
   right:0;
   width:auto;
-  height: 15vh;
+  height: 19vh;
 	z-index: 4;
 }
 
@@ -108,7 +108,7 @@ overflow: hidden;
  font-size: 13px;
  font-family: 'Josefin Sans', sans-serif;
  font-weight: 700;
-color: aqua;
+color: #00ba7c;
 }
 
 #info:hover{
