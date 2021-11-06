@@ -567,6 +567,103 @@ transition: all 0.3s ease 0s;
 padding:0;
  }
 
+/*Enter page*/
 
+
+
+h3{
+	-webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: Rgba(0,0,0,0);
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+	text-decoration: none;
+   color: black;
+   text-align: center;
+   cursor:default;
+  /*I added some paddingscroll-behavior: smooth;*/
+    margin: 0px;
+    padding: 15px 15px;
+    text-transform: uppercase;
+	font-size: 8vh ;
+  /*also changed the font family but that's totally irrelevant*/
+font-family: 'Josefin Sans', sans-serif;
+font-weight: 700;
+transition: all 0.3s ease 0s;
+display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  top: 0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+
+.enter {
+	-webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: Rgba(0,0,0,0);
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+
+	text-decoration: none;
+     color: white;
+	 background-color: black;
+	 border-radius: 10px;
+   cursor: pointer;
+	   padding: 3vh 10vh;
+	margin:0px;
+    letter-spacing: .17em;
+    text-transform: uppercase;
+	font-size: 2vh ;
+  /*also changed the font family but that's totally irrelevant*/
+font-family: monospace;
+transition: all 0.3s ease 0s;
+	
+	
+}
+
+.enter:hover{
+  background-color:#00ffaa ;
+  color:black;
+  	text-decoration: none;
+	border-style: none;
+}
+
+
+.enter:focus{
+  border: none;
+  outline: none;
+}
+
+
+#enter-container {
+		-webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: Rgba(0,0,0,0);
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+								  cursor: default;
+	width:100vw;
+	height:100vh;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+	
+}
 
 
