@@ -631,7 +631,7 @@ transition: all 0.3s ease 0s;
 
 .enter:hover{
   background-color:#00ffaa ;
-  color:black;
+  color:white;
   	text-decoration: none;
 	border-style: none;
 }
