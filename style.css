@@ -78,7 +78,7 @@ opacity: 0.8;
 #logobig
 {
 	background-color: black;
-	color: #00ffaa;
+	color: white;
 	  overflow: hidden;
       letter-spacing: 0;
 	  cursor: pointer;
@@ -115,8 +115,6 @@ color: #00ffaa;
   color: white
 }
 
-#logobig:hover{
-	color: white;
 	
 }
 #list{
