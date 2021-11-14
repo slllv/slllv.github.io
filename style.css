@@ -681,6 +681,7 @@ transition: all 0.3s ease 0s;
 	text-align:center;
 	flex-direction:column;
 		Height:auto;
+Width: 100vw;
 	}
 
 .pfp {
@@ -714,7 +715,7 @@ border: none;}
 	align-items:center;
 	text-align:center;
 	flex-direction:column;
-	width: 50vw;
+	width: 100vw;
 	height: auto;
 	margin-top: 25px;
 	padding: 0;
