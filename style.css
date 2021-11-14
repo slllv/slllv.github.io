@@ -685,7 +685,6 @@ Width: 100vw;
 	}
 
 .pfp {
-	order:1;
 	 display: flex;
 	justify-content: center;
 	align-items:center;
@@ -709,7 +708,6 @@ border: none;}
 }
 
 .info-container {
-	order: 2;
 	 display: flex;
 	justify-content: center;
 	align-items:center;
@@ -735,7 +733,6 @@ border: none;}
 }
 
 .container-1 {
-	order: 1;
 	 display: flex;
 	align-items:center;
 	text-align:center;
@@ -743,6 +740,7 @@ border: none;}
 	width: 50vw;
 	height: 150vh;
 	margin-top: 25px;
+margin-bottom: 50vh;
 	padding: 0;
 	text-decoration: none;
 }
