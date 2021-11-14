@@ -360,13 +360,13 @@ div {
 	}
 	.box {
 		
-			width: 30vw;
-	height: 30vw;
+			width: 30vh;
+	height: 30vh;
 		
 		
 	}
 
-    .original{height: 100vw;}
+    .original{height: 100vh;}
 	.upcoming{height: 30vw;}
 .prespic {
 	width:50vw;
