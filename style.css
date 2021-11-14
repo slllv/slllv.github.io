@@ -642,6 +642,11 @@ transition: all 0.3s ease 0s;
   outline: none;
 }
 
+.box:focus{
+  border: none;
+  outline: none;
+}
+
 
 #enter-container {
 		-webkit-tap-highlight-color: transparent;
@@ -675,7 +680,7 @@ transition: all 0.3s ease 0s;
 	align-items: center;
 	text-align:center;
 	flex-direction:column;
-		Height:150vh;
+		Height:auto;
 	}
 
 .pfp {
