@@ -444,11 +444,11 @@ background: none;
 }
 
 .tile1:hover {
-	border: 5px red solid;
+	border: 5px #00ffaa solid;
 	
 }
 .tile2:hover {
-	border: 5px red solid;
+	border: 5px #00ffaa solid;
 }
 .tile3:hover {
 	border: 5px red solid;
