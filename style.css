@@ -67,7 +67,7 @@ h2{
    text-align: center;
   /*I added some paddingscroll-behavior: smooth;*/
     margin: 0px;
-    padding: 20px 12px;
+    padding: 10px 10px;
     text-transform: uppercase;
 	font-size: 5vh ;
   /*also changed the font family but that's totally irrelevant*/
