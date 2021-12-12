@@ -440,21 +440,21 @@ background: none;
 }
 
 .upcoming .box:hover{
-	border: 5px #00ffaa solid;
+	border: 5px red solid;
 }
 
 .tile1:hover {
-	border: 5px #00ffaa solid;
+	border: 5px red solid;
 	
 }
 .tile2:hover {
-	border: 5px #00ffaa solid;
+	border: 5px red solid;
 }
 .tile3:hover {
-	border: 5px #00ffaa solid;
+	border: 5px red solid;
 }
 .tile4:hover {
-	border: 5px #00ffaa solid;
+	border: 5px red solid;
 }
 .tile5:hover {
 	border: 5px red solid;
@@ -763,4 +763,14 @@ margin-bottom: 15vh;
 	width:30vh;
 	height:30vh;
 	margin: 15px 25px;
+}
+
+.scroller{
+width:100vw;
+	height:80vh;
+justify-content: center;
+	 display:flex;
+	align-items:center;
+	text-align:center;
+	flex-direction:row;
 }
