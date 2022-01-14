@@ -776,6 +776,8 @@ justify-content: center;
 }
 .full{
 	order:2;
+        margin:0;
+        padding:0;
 	width: 100vw;
 	height:auto;
 	justify-content: center;
