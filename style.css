@@ -16,6 +16,8 @@ Overflow-y:scroll;
 max-width: 100%;
 Overflow-x:hidden;
         scroll-behavior: smooth;
+opacity: 0;
+   transition: opacity .5s;
 }
 
 .shop{
