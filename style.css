@@ -1,4 +1,17 @@
+@keyframes fadeInAnimation { 
 
+    0% { 
+
+        opacity: 0; 
+
+    } 
+
+    100% { 
+
+        opacity: 1; 
+
+     } 
+}
 body {
 	-webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: Rgba(0,0,0,0);
