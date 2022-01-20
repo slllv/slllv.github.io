@@ -16,16 +16,24 @@ Overflow-y:scroll;
 max-width: 100%;
 Overflow-x:hidden;
         scroll-behavior: smooth;
-opacity: 0;
-   transition: opacity 5s;
+animation: fadeInAnimation ease 3s 
+
+    animation-iteration-count: 1; 
+
+    animation-fill-mode: forwards; 
+} 
 }
 
 .shop{
 	Overflow-y:scroll;
         scroll-behavior: smooth;
 	display: block;
-opacity: 0;
-   transition: opacity 5s;
+animation: fadeInAnimation ease 3s 
+
+    animation-iteration-count: 1; 
+
+    animation-fill-mode: forwards; 
+} 
 }
 
 h1{
