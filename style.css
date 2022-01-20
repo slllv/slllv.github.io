@@ -29,7 +29,7 @@ Overflow-y:scroll;
 max-width: 100%;
 Overflow-x:hidden;
         scroll-behavior: smooth;
-animation: fadeInAnimation ease 2s;
+animation: fadeInAnimation ease 1s;
 
     animation-iteration-count: 1; 
 
@@ -41,7 +41,7 @@ animation: fadeInAnimation ease 2s;
 	Overflow-y:scroll;
         scroll-behavior: smooth;
 	display: block;
-animation: fadeInAnimation ease 2s; 
+animation: fadeInAnimation ease 1s; 
 
     animation-iteration-count: 1; 
 
