@@ -34,7 +34,7 @@ animation: fadeInAnimation ease .5s;
     animation-iteration-count: 1; 
 
     animation-fill-mode: forwards; 
-} 
+
 }
 
 .shop{
@@ -46,7 +46,7 @@ animation: fadeInAnimation ease .5s;
     animation-iteration-count: 1; 
 
     animation-fill-mode: forwards; 
-} 
+
 }
 
 h1{
