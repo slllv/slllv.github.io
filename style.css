@@ -201,10 +201,12 @@ transition: all 0.3s ease 0s;
 }
 
 .shoplink:hover {
-	color: white;
-  opacity: 0.5;
+background-color: #00ffaa;
+	color: black;
 }
-
+.homelink:hover {
+opacity: 0.5;
+}
 
 
 
