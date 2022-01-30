@@ -204,6 +204,9 @@ transition: all 0.3s ease 0s;
 background-color: #00ffaa;
 	color: black;
 }
+.homelink{
+transition: all 0.3s ease 0s;
+}
 .homelink:hover {
 opacity: 0.5;
 }
