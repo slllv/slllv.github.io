@@ -1,6 +1,6 @@
 {
-    "name": "SLLLV///",
-    "short_name" : "SLLLV///",
+    "name": "SLLLV",
+    "short_name" : "SLLLV",
     "start_url": "index.html?utm_source=homescreen",
     "scope" : "./",
     "icons": [
