@@ -1,1 +1,31 @@
-Df
+<!DOCTYPE html>
+<html id="top" lang="en">
+<head>
+<title>Home</title>
+<!--<meta http-equiv = "refresh" content = "0; url = Terms of services.pdf" />-->
+<link href="style.css" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link href="manifest.webmanifest" rel="manifest">
+<script type="text/javascript" src="script.js"></script>
+<meta charset="UTF-8">
+<meta name="theme-color" content="#00FFaa" >
+<meta http-equiv="refresh" content="1; url=https://slllv.com/✦SONAVERSE" />
+<meta name="viewport" 
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<!-- background color is #f0f2f6 -->
+<link rel="icon" type="image/png" href="logo.png"/>
+</head>
+
+<body onContextMenu="return false;">
+
+<header>
+<a href="https://slllv.com" onContextMenu="return false;" id="logo">SLLLV///</a>
+</header>
+
+
+<br><br><br><br><br><br>
+
+<h1>Redirecting..</h1>
+</body>
+
+</html>
