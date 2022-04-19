@@ -478,19 +478,19 @@ background: none;
 	
 }
 .tile2:hover {
-	border: 5px red solid;
+	border: 5px #00ffaa solid;
 }
 .tile3:hover {
-	border: 5px red solid;
+	border: 5px #00ffaa solid;
 }
 .tile4:hover {
-	border: 5px red solid;
+	border: 5px #00ffaa solid;
 }
 .tile5:hover {
-	border: 5px red solid;
+	border: 5px #00ffaa solid;
 }
 .tile6:hover {
-	border: 5px red solid;
+	border: 5px #00ffaa solid;
 }
 
 .tile1 {
