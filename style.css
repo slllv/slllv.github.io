@@ -1,8 +1,4 @@
-#portfolio {
-    background-size: 400% 400%;
-    background: linear-gradient(-45deg, #f0f2f6, #000000, #00ffaa, #ffffff);
-    animation: gradient 15s ease infinite;
-}
+
 
 @keyframes gradient {
     0% {
