@@ -253,7 +253,7 @@ bottom:0;
 left: 0;
 right: 0;
 /*background-color: white;*/
-margin: 0;
+margin-bottom: 3vh;
 padding-top: 50px;
 
 }
@@ -488,23 +488,23 @@ background: none;
 }
 
 .tile1:hover {
-	border: 5px #00ffaa solid;
+	border: 3px #00ffaa solid;
 	
 }
 .tile2:hover {
-	border: 5px #00ffaa solid;
+	border: 3px #00ffaa solid;
 }
 .tile3:hover {
-	border: 5px #00ffaa solid;
+	border: 3px #00ffaa solid;
 }
 .tile4:hover {
-	border: 5px #00ffaa solid;
+	border: 3px #00ffaa solid;
 }
 .tile5:hover {
-	border: 5px #00ffaa solid;
+	border: 3px #00ffaa solid;
 }
 .tile6:hover {
-	border: 5px #00ffaa solid;
+	border: 3px #00ffaa solid;
 }
 
 .tile1 {
