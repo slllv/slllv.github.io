@@ -488,23 +488,23 @@ background: none;
 }
 
 .tile1:hover {
-	border: 3px #00ffaa solid;
+	border: 1px #00ffaa solid;
 	
 }
 .tile2:hover {
-	border: 3px #00ffaa solid;
+	border: 1px #00ffaa solid;
 }
 .tile3:hover {
-	border: 3px #00ffaa solid;
+	border: 1px #00ffaa solid;
 }
 .tile4:hover {
-	border: 3px #00ffaa solid;
+	border: 1px #00ffaa solid;
 }
 .tile5:hover {
-	border: 3px #00ffaa solid;
+	border: 1px #00ffaa solid;
 }
 .tile6:hover {
-	border: 3px #00ffaa solid;
+	border: 1px #00ffaa solid;
 }
 
 .tile1 {
