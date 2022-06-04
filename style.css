@@ -164,7 +164,7 @@ align-items: center;
 text-align: center;
 	overflow: hidden;
 	margin-top: 15px;
-        height: 120vh;
+        height: 100vh;
 }
 .featured{
 	text-decoration: none;
@@ -191,7 +191,7 @@ transition: all 0.3s ease 0s;
   font-size: 3vh;
 }
 .shoplink {
-       padding: 8vh 0px;
+       padding: 5vh 0px;
         margin: 0px;
 	width: 75vw;
 	height: 30%;
