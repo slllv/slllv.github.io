@@ -1,4 +1,6 @@
-
+html{
+scroll-behavior: smooth !important;
+}
 
 @keyframes gradient {
     0% {
