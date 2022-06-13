@@ -62,6 +62,12 @@ animation: fadeInAnimation ease .5s;
 	
 }
 
+
+#speciallink:hover{
+  opacity: 0.5;
+transition: all 0.3s ease 0s;
+}
+
 .shop{
 	Overflow-y:scroll;
         scroll-behavior: smooth;
