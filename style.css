@@ -152,7 +152,7 @@ text-align:center;
 .logo img:hover
 
 {
- color: blue;
+ opacity:0.4;
 }
 
 
