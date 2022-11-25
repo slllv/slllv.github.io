@@ -1,4 +1,4 @@
 $(function() {
-setTimeout(function() { $("#loading").fadeOut(200); }, 2000)
+setTimeout(function() { $("#loading").fadeOut(200); }, 2500)
 
 })
