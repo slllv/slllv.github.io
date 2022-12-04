@@ -196,6 +196,11 @@ color:white;
    border-bottom: 2px dotted #ffffff;
 }
 
+.toplink:hover
+
+{
+ opacity:0.4;
+}
 
 @font-face { 
 font-family: 'Menlo';
