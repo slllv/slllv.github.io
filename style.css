@@ -159,7 +159,7 @@ text-align:center;
 
 header {
 display:flex;
-justify-content:space-between;
+justify-content:space-around;
 align-items:center;
 text-align:center;
 
@@ -193,7 +193,7 @@ color:white;
 .toplink {
         color:white;
 	font-family:Menlo;
-
+   border-bottom: 2px dotted #ffffff;
 }
 
 
