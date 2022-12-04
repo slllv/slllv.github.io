@@ -194,6 +194,7 @@ color:white;
         color:white;
 	font-family:Menlo;
    border-bottom: 2px dotted #ffffff;
+	   text-decoration:none;
 }
 
 .toplink:hover
