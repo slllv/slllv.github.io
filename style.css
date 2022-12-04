@@ -96,7 +96,7 @@ background-size:cover;
 background-position:center;
 display:flex;
 align-items:center;
-	overflow:hidden;
+	overflow-x:hidden;
 }
 
 
