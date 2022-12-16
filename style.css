@@ -136,8 +136,8 @@ justify-content:center;
 align-items:center;
 text-align:center;
 
-      width: 25vh;
-      height: 25vh;     
+      width: 20vh;
+      height: 20vh;     
 
 
 }
@@ -180,7 +180,7 @@ text-align:center;
 position: absolute;
       bottom: 0;
       width: 100%;
-      height: 5vh;     
+      height: auto;     
 		
 
 }
