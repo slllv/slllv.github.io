@@ -30,7 +30,7 @@ function addBloon() {
             // Append the new bloon to the container
             var bloonContainer = document.getElementById('bloonContainer');
             bloonContainer.insertBefore(bloon, bloonContainer.firstChild);
-        }
+        })
         .catch(function(error) {
             console.error("Error adding bloon: ", error);
         });
