@@ -1,270 +1,125 @@
-/* Box sizing rules */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
-/* Remove default margin */
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-figure,
-blockquote,
-dl,
-dd {
-  margin: 0;
-}
-
-/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role='list'],
-ol[role='list'] {
-  list-style: none;
-}
-
-/* Set core root defaults */
-html:focus-within {
-  scroll-behavior: smooth;
-}
-
-/* Set core body defaults */
+/* Apply the fadeIn animation to the body */
 body {
-  min-height: 100vh;
-  text-rendering: optimizeSpeed;
-  line-height: 1.5;
+    animation: fadeIn 1s ease-in-out;
 }
-
-/* A elements that don't have a class get default styles */
-a:not([class]) {
-  text-decoration-skip-ink: auto;
-}
-
-/* Make images easier to work with */
-img,
-picture {
-  max-width: 100%;
-  display: block;
-}
-
-/* Inherit fonts for inputs and buttons */
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
-
-/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
-@media (prefers-reduced-motion: reduce) {
-  html:focus-within {
-   scroll-behavior: auto;
-  }
-  
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
+body {
+    padding-top: 20vh; /* Add padding to the top of the body equal to the height of the header */
+    position: relative; /* Add relative positioning to contain the body content */
+    z-index: 1; 
 }
 
 
-
-/* Stylesheet begins here */
-
-body{
-	  -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Old versions of Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none;
-	-webkit-tap-highlight-color: transparent; /* for removing the highlight */
-	
-	
-background-color:black;
-width:100vw;
-height:100vh;
-background-image:url('bg.JPG');
-background-repeat:no-repeat;
-background-size:cover;
-background-position:center;
-display:flex;
-align-items:center;
-	overflow-x:hidden;
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20vh; /* Set height to 20% of the viewport height */
+    background-color: rgb(255, 255, 255); /* Make the header transparent */
+    z-index: -1; /* Ensure the header is above other content */
 }
-
-
-
-
-  
 
 .container {
-	display:flex;
-	flex-direction:column;
-justify-content:flex-start;
-text-align:center;
-align-items:center;
-      width: 100%;
-      height: 80vh;   
-
-
-}
-
-#loading {
-	display:flex;
-justify-content:center;
-align-items:center;
-text-align:center;
-
-      width: 100vw;
-      height: 100vh;   
-
-
-}
-
-.logo {
-	
-	display:flex;
-justify-content:center;
-align-items:center;
-text-align:center;
-
-      width: 20vh;
-      height: 20vh;     
-
-
-}
-
-.logo img
-
-{
- max-width: 100%;
- max-height: 100%;
-}
-
-.logo img:hover
-
-{
- opacity:0.4;
+    max-width: 960px; /* Adjust as needed */
+    height: 100%; /* Ensure container fills the height of the header */
+    margin: 0 auto; /* Center the content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
+#logo {
+  height: 30vh; /* Make the logo height fill the container */
+    width: auto; /* Allow width to adjust proportionally */
+}
 
-header {
-display:flex;
-justify-content:space-around;
-align-items:center;
-text-align:center;
+/* Styles for footer */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #47b9ff;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-position: fixed;
-      top: 0;
-      width: 100%;
-      height: 10vh;     
-		
+/* Styles for form within footer */
+.footer-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-form input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.footer-form button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #ffc800;
+    color: white;
+    cursor: pointer;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    .footer-form {
+        flex-direction: column;
+    }
+
+    .footer-form input[type="text"] {
+        margin-bottom: 5px;
+        border-radius: 5px;
+    }
+
+    .footer-form button {
+        border-radius: 5px;
+    }
+}
+
+@keyframes bounce {
+    0% { transform: translateY(-50px); opacity: 0; }
+    50% { transform: translateY(0); opacity: 1; }
+    75% { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+}
+
+.bloon {
+    animation: bounce 0.5s ease-in-out;
+}
+
+.bloon {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #87CEEB; /* Sky blue */
+    color: #000; /* Black text */
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 15px;
 
 }
 
-footer {
-display:flex;
-justify-content:center;
-align-items:center;
-text-align:center;
-
-position: absolute;
-      bottom: 0;
-      width: 100%;
-      height: auto;     
-		
-
+/* Center bloons horizontally */
+.bloon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
-footer p{
-color:white;
-
-}
-
-.toplink {
-        color:white;
-	font-family:Menlo;
-   border-bottom: 2px dotted #ffffff;
-	   text-decoration:none;
-}
-
-.toplink:hover
-
-{
- opacity:0.4;
-}
-
-@font-face { 
-font-family: 'Menlo';
-src: url('Menlo-Regular.woff') format('woff');
-}
-
-#copyright {
-font-family:Menlo;
-color: rgba(257, 257, 257, 0.5);
-
-}
-
-#loading {
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: 99;
-background-color:black;
-}
-
-#loading video {
- width: 100vw;
- height: 100vh;
-}
-
-.soon{
-animation: fade ease 1s;
-animation-iteration-count:1;
-animation-fill-mode:forwards;
-
-background-color:black;
-background-image:none; 
-display:flex;
-justify-content:center;
-align-items:center;
-text-align:center;
-overflow:hidden;
-	-webkit-tap-highlight-color: transparent; /* for removing the highlight */
-		  -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Old versions of Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none;
-	-webkit-tap-highlight-color: transparent; /* for removing the highlight */
-}
-
-@keyframes fade {
-0% {
-		opacity:0;
-}
-
-100% {
-		opacity:1;
-}
-
-}
-
-
-
-
-
