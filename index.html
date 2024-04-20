@@ -1,43 +1,40 @@
 <!DOCTYPE html>
-<html lang="en" translate="no">
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>carvalld - Home</title>
+    <title>sOnder</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+</head>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="my.js"></script>
-  </head>
-  <body onclick="document.getElementsByTagName('audio')[0].play()">
+<body>
+   <header class="header">
+        <div class="container">
+            <a href="index.html">
+                <img id="logo" src="logo.jpg">
+            </a>
+        </div>
+    </header>
 
-<div id="loading">
-<video autoplay playsinline autoplay muted>
-  <source src="sign.MP4" type="video/mp4">
-</video>
+    <div class="bloon-container" id="bloonContainer">
+        <!-- Bloons will be dynamically added here -->
+    </div>
+<br><br><br><br><br><br>
+<br><br><br><br><br><br>
+
+
+<div class="copyright">
+    <span>&copy; <span id="year"></span> Claudio N'danu</span>
 </div>
 
-	  	<header>
-			<a href="https://instagram.com/carvalld" class="toplink">&#60; SOCIAL</a>
-			<a href="https://www.fiverr.com/s/jG1bPa" class="toplink">WORK &#62;</a>
-		</header>
-	  
-	  
-		<div oncontextmenu="return false;" class="container">
-		
-			
-		
-	  </div>
-		
-		<footer>
-			<p id="copyright">&#169; 2023, carvalld</p>
-		</footer>
+    <footer class="footer">
+        <form class="footer-form" autocomplete="off">
+            <input id="messageInput" type="text" placeholder="Speak your mind...">
+            <button type="button" onclick="addBloon()">Send</button>
+        </form>
+    </footer>
 
+    <script src="script.js"></script>
 
-
-
-
-  </body>
+</body>
 </html>
