@@ -10,11 +10,25 @@ document.getElementById('messageInput').addEventListener('keydown', function(eve
 function addBloon() {
     var message = document.getElementById('messageInput').value;
     var bloonContainer = document.getElementById('bloonContainer');
+ 
+    // Get a reference to the "bloons" node under the root of your database
+    var database = firebase.database();
+    var bloonsRef = database.ref('bloons');
 
-    // Create bloon element
+    // Create a new bloon object with text content and timestamp
+    var newBloon = {
+        text: bloonText,
+        createdAt: firebase.database.ServerValue.TIMESTAMP // Use Firebase server timestamp
+    };
+
+    // Push the new bloon to the "bloons" node
+    bloonsRef.push(newBloon)
+        .then(function() {
+            console.log("Bloon added successfully!");    // Create bloon element
     var bloon = document.createElement('div');
     bloon.className = 'bloon';
     bloon.textContent = message;
+            
 // Identify smiley faces and make them red
 var formattedMessage = message.replace(/(\:\)|\:-\)|\:\(|\:-\(|\:\D|<3)/g, '<span style="color: red;">$&</span>');
     
