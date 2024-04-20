@@ -57,7 +57,25 @@
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
   const analytics = getAnalytics(app);
-</script>
+
+    function addBloon(database) {
+    // Retrieve bloon text from input field
+    var bloonText = document.getElementById('messageInput').value;
+
+    // Create a new bloon element
+    var bloon = document.createElement('div');
+    bloon.classList.add('bloon');
+
+     // Firebase database reference
+    var database = firebase.database();
+    var bloonsRef = database.ref('bloons');
+
+    // Create a new bloon object
+    var newBloon = {
+        text: bloonText,
+        createdAt: firebase.database.ServerValue.TIMESTAMP
+    };
+        </script>
 
     <script src="script.js"></script>
 </body>
