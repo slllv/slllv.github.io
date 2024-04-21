@@ -17,11 +17,15 @@ body {
     padding-top: 20vh; /* Add padding to the top of the body equal to the height of the header */
     position: relative; /* Add relative positioning to contain the body content */
     z-index: 1; 
-}
+
 body {
-    overflow-x: hidden; /* Hide horizontal scrollbar */
-    overflow-y: auto; /* Enable vertical scrollbar */
-    overscroll-behavior-y: contain; /* Disable pull-to-refresh behavior on touch devices */
+    overflow: hidden; /* Disable scrolling in all directions */
+    touch-action: pan-y; /* Allow only vertical scrolling on touch devices */
+}
+
+/* Enable vertical scrolling */
+body {
+    overflow-y: auto;
 }
 
 /* Hide scrollbar for Firefox */
@@ -34,13 +38,7 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-/* Disable zooming */
-@media (max-width: 767px) {
-    body {
-        touch-action: manipulation; /* Disable double-tap zoom on mobile */
-    }
-}
-
+    
 .header {
     position: fixed;
     top: 0;
